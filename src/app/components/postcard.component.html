@@ -1,0 +1,17 @@
+<md-card class="monument-card">
+    <md-card-header>
+        <div md-card-avatar class="monument-card-header-image"></div>
+        <md-card-title>{{country}}</md-card-title>
+        <md-card-subtitle>{{city}}</md-card-subtitle>
+    </md-card-header>
+    <img md-card-image [src]="imgSrc" class="monument-image-size">
+    <md-card-content>
+        <p>
+            {{desc}}
+        </p>
+    </md-card-content>
+    <md-card-actions>
+        <button md-button>LIKE</button>
+        <button md-button>SHARE</button>
+    </md-card-actions>
+</md-card>

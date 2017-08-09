@@ -1,0 +1,31 @@
+<h1>
+    Angular Flex-layout Implementation
+</h1>
+<section id="monument-cards">
+    <div fxLayout="row wrap" class="colored box nopad">
+        <div fxFlex="100%" fxFlex.gt-xs="50%" fxFlex.gt-sm="33.3333%">
+            <postcard [country]="'Australia'" [city]="'Sydney'" [desc]="'OPERA HOUSE'"
+                      [imgSrc]="operaHouseImg"></postcard>
+        </div>
+        <div fxFlex="100%" fxFlex.gt-xs="50%" fxFlex.gt-sm="33.3333%">
+            <postcard [country]="'India'" [city]="'Agra'" [desc]="'TAJ MAHAL'"
+                      [imgSrc]="tajMahalImg"></postcard>
+        </div>
+        <div fxFlex="100%" fxFlex.gt-xs="50%" fxFlex.gt-sm="33.3333%">
+            <postcard [country]="'UK'" [city]="'London'" [desc]="'BUCKINGHAM PALACE'"
+                      [imgSrc]="palaceImg"></postcard>
+        </div>
+        <div fxFlex="100%" fxFlex.gt-xs="50%" fxFlex.gt-sm="33.3333%">
+            <postcard [country]="'Italy'" [city]="'Rome'" [desc]="'COLOSSEUM'"
+                      [imgSrc]="colosseumImg"></postcard>
+        </div>
+        <div fxFlex="100%" fxFlex.gt-xs="50%" fxFlex.gt-sm="33.3333%">
+            <postcard [country]="'Spain'" [city]="'Barcelona'" [desc]="'CATHEDRAL'"
+                      [imgSrc]="cathedralImg"></postcard>
+        </div>
+        <div fxFlex="100%" fxFlex.gt-xs="50%" fxFlex.gt-sm="33.3333%">
+            <postcard [country]="'UAE'" [city]="'Dubai'" [desc]="'BURJ KHALIFA'"
+                      [imgSrc]="burjKhalifaImg"></postcard>
+        </div>
+    </div>
+</section>

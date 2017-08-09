@@ -1,0 +1,13 @@
+// this rule is just for testing sass
+div {
+  h1 {
+    color: #9c27b0;
+  }
+}
+
+body {
+  background: #0147A7;
+  color: #fff;
+}
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";

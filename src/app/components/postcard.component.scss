@@ -1,0 +1,21 @@
+.monument-card {
+  min-width: 250px;
+  border: solid 1px darkblue;
+}
+
+.monument-image-size {
+  max-width: 70%;
+  height: 200px;
+}
+
+.monument-card-header-image {
+  background-image: url('../../assets/images/avatar.jpg');
+  background-size: cover;
+}
+
+// this rule is just for testing sass
+div {
+  p {
+    color: #9c27b0;
+  }
+}

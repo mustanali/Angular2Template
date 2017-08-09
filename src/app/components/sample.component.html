@@ -1,0 +1,25 @@
+<h1>
+    Sample Components Loaded - Angular Material and Flex-Layout
+</h1>
+<md-grid-list cols="4" rowHeight="100px">
+    <md-grid-tile
+            *ngFor="let tile of tiles"
+            [colspan]="tile.cols"
+            [rowspan]="tile.rows"
+            [style.background]="tile.color">
+        {{tile.text}}
+    </md-grid-tile>
+</md-grid-list>
+<div class="containerX">
+    <div fxLayout="row wrap" class="colored box nopad" >
+        <div fxFlex="none">     [flex="none"]       </div>
+        <div fxFlex>            [flex]              </div>
+        <div fxFlex="nogrow">   [flex="nogrow"]     </div>
+        <div fxFlex="grow">     [flex="grow"]       </div>
+
+        <div fxFlex="33.33%">   [flex="33.33%"]     </div>
+        <div fxFlex="33.33%">   [flex="33.33%"]     </div>
+        <div fxFlex="33.33%">   [flex="33.33%"]     </div>
+
+    </div>
+</div>

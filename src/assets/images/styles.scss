@@ -1,0 +1,11 @@
+body {
+    background: #0147A7;
+    color: #fff;
+}
+
+.monument-card-header-image {
+    background-image: url('../../assets/images/avatar.jpg');
+    background-size: cover;
+}
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
